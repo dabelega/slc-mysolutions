@@ -1,4 +1,6 @@
-function fizzBuzz(num){
+ module.exports = {
+
+ fizzBuzz: function(num) {
   var msg = '';
   if (num % 3!== 0 && num % 5 !== 0){
     return num;
@@ -14,4 +16,4 @@ function fizzBuzz(num){
   }
   return msg;
 }
-
+}

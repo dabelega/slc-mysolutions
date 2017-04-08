@@ -1,0 +1,22 @@
+{
+  "name": "slc-mysolutions",
+  "version": "1.0.0",
+  "description": "Home Labs",
+  "main": "app/library.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhaniboy09/slc-mysolutions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhaniboy09/slc-mysolutions/issues"
+  },
+  "homepage": "https://github.com/dhaniboy09/slc-mysolutions"
+}
