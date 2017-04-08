@@ -1,17 +1,162 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'jasmine' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.35
-4 error install Couldn't read dependencies
-5 error package.json ENOENT, open '/Users/shani/slc-mysolutions/package.json'
-5 error package.json This is most likely not a problem with npm itself.
-5 error package.json npm can't find a package.json file in your current directory.
-6 error System Darwin 14.5.0
-7 error command "node" "/usr/local/bin/npm" "install"
-8 error cwd /Users/shani/slc-mysolutions
-9 error node -v v0.10.35
-10 error npm -v 1.4.28
-11 error path /Users/shani/slc-mysolutions/package.json
-12 error code ENOPACKAGEJSON
-13 error errno 34
-14 verbose exit [ 34, true ]
+4 verbose cache add [ 'jasmine', null ]
+5 verbose cache add name=undefined spec="jasmine" args=["jasmine",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'jasmine',
+6 verbose parsed url   path: 'jasmine',
+6 verbose parsed url   href: 'jasmine' }
+7 silly lockFile 5bfd08bd-jasmine jasmine
+8 verbose lock jasmine /Users/shani/.npm/5bfd08bd-jasmine.lock
+9 silly lockFile 5bfd08bd-jasmine jasmine
+10 silly lockFile 5bfd08bd-jasmine jasmine
+11 verbose addNamed [ 'jasmine', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile fdd358a6-jasmine jasmine@
+14 verbose lock jasmine@ /Users/shani/.npm/fdd358a6-jasmine.lock
+15 silly addNameRange { name: 'jasmine', range: '*', hasData: false }
+16 verbose request where is /jasmine
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 7f7c863564f7bd28
+19 verbose url raw /jasmine
+20 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine' ]
+21 verbose url resolved https://registry.npmjs.org/jasmine
+22 verbose request where is https://registry.npmjs.org/jasmine
+23 info trying registry request attempt 1 at 10:22:07
+24 http GET https://registry.npmjs.org/jasmine
+25 http 200 https://registry.npmjs.org/jasmine
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'nginx/1.10.1',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'last-modified': 'Wed, 05 Apr 2017 18:41:39 GMT',
+26 silly registry.get     etag: 'W/"58e53a63-5105"',
+26 silly registry.get     'content-encoding': 'gzip',
+26 silly registry.get     'cache-control': 'max-age=300',
+26 silly registry.get     'content-length': '3573',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sat, 08 Apr 2017 09:22:08 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '34',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-ams4430-AMS',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1491643328.185445,VS0,VE0',
+26 silly registry.get     vary: 'Accept-Encoding' } ]
+27 silly addNameRange number 2 { name: 'jasmine', range: '*', hasData: true }
+28 silly addNameRange versions [ 'jasmine',
+28 silly addNameRange   [ '2.0.1',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '2.1.1',
+28 silly addNameRange     '2.2.0',
+28 silly addNameRange     '2.2.1',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.3.1',
+28 silly addNameRange     '2.3.2',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.4.1',
+28 silly addNameRange     '2.5.0',
+28 silly addNameRange     '2.5.1',
+28 silly addNameRange     '2.5.2',
+28 silly addNameRange     '2.5.3' ] ]
+29 verbose addNamed [ 'jasmine', '2.5.3' ]
+30 verbose addNamed [ '2.5.3', '2.5.3' ]
+31 silly lockFile b1250e94-jasmine-2-5-3 jasmine@2.5.3
+32 verbose lock jasmine@2.5.3 /Users/shani/.npm/b1250e94-jasmine-2-5-3.lock
+33 silly lockFile dc56e80f-js-org-jasmine-jasmine-2-5-3-tgz https://registry.npmjs.org/jasmine/-/jasmine-2.5.3.tgz
+34 verbose lock https://registry.npmjs.org/jasmine/-/jasmine-2.5.3.tgz /Users/shani/.npm/dc56e80f-js-org-jasmine-jasmine-2-5-3-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/jasmine/-/jasmine-2.5.3.tgz',
+35 verbose addRemoteTarball   '5441f254e1fc2269deb1dfd93e0e57d565ff4d22' ]
+36 info retry fetch attempt 1 at 10:22:08
+37 verbose fetch to= /var/folders/_8/qtwb41vd4095463vshppl1600000gn/T/npm-55172-_YzWcTAR/registry.npmjs.org/jasmine/-/jasmine-2.5.3.tgz
+38 http GET https://registry.npmjs.org/jasmine/-/jasmine-2.5.3.tgz
+39 http 200 https://registry.npmjs.org/jasmine/-/jasmine-2.5.3.tgz
+40 silly lockFile dc56e80f-js-org-jasmine-jasmine-2-5-3-tgz https://registry.npmjs.org/jasmine/-/jasmine-2.5.3.tgz
+41 silly lockFile dc56e80f-js-org-jasmine-jasmine-2-5-3-tgz https://registry.npmjs.org/jasmine/-/jasmine-2.5.3.tgz
+42 silly lockFile b1250e94-jasmine-2-5-3 jasmine@2.5.3
+43 silly lockFile b1250e94-jasmine-2-5-3 jasmine@2.5.3
+44 silly lockFile fdd358a6-jasmine jasmine@
+45 silly lockFile fdd358a6-jasmine jasmine@
+46 silly resolved [ { name: 'jasmine',
+46 silly resolved     description: 'Command line jasmine',
+46 silly resolved     homepage: 'http://jasmine.github.io/',
+46 silly resolved     keywords: [ 'test', 'jasmine', 'tdd', 'bdd' ],
+46 silly resolved     license: 'MIT',
+46 silly resolved     version: '2.5.3',
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git+https://github.com/jasmine/jasmine-npm.git' },
+46 silly resolved     scripts: { test: 'grunt && ./bin/jasmine.js' },
+46 silly resolved     dependencies: { exit: '^0.1.2', glob: '^7.0.6', 'jasmine-core': '~2.5.2' },
+46 silly resolved     bin: { jasmine: './bin/jasmine.js' },
+46 silly resolved     main: './lib/jasmine.js',
+46 silly resolved     devDependencies:
+46 silly resolved      { grunt: '^0.4.2',
+46 silly resolved        'grunt-cli': '^0.1.13',
+46 silly resolved        'grunt-contrib-jshint': '^0.11.0',
+46 silly resolved        shelljs: '^0.3.0' },
+46 silly resolved     gitHead: '0da2582c4f162c700263b63c3144b99dd56d5015',
+46 silly resolved     bugs: { url: 'https://github.com/jasmine/jasmine-npm/issues' },
+46 silly resolved     _id: 'jasmine@2.5.3',
+46 silly resolved     _shasum: '5441f254e1fc2269deb1dfd93e0e57d565ff4d22',
+46 silly resolved     _from: 'jasmine@',
+46 silly resolved     _npmVersion: '2.12.1',
+46 silly resolved     _nodeVersion: '0.12.7',
+46 silly resolved     _npmUser: { name: 'slackersoft', email: 'gregg@slackersoft.net' },
+46 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '5441f254e1fc2269deb1dfd93e0e57d565ff4d22',
+46 silly resolved        tarball: 'https://registry.npmjs.org/jasmine/-/jasmine-2.5.3.tgz' },
+46 silly resolved     _npmOperationalInternal:
+46 silly resolved      { host: 'packages-12-west.internal.npmjs.com',
+46 silly resolved        tmp: 'tmp/jasmine-2.5.3.tgz_1484181031447_0.8811303661204875' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/jasmine/-/jasmine-2.5.3.tgz' } ]
+47 info install jasmine@2.5.3 into /usr/local/lib
+48 info installOne jasmine@2.5.3
+49 verbose lib/node_modules/jasmine unbuild
+50 verbose tar unpack /Users/shani/.npm/jasmine/2.5.3/package.tgz
+51 silly lockFile e079703c-r-local-lib-node-modules-jasmine tar:///usr/local/lib/node_modules/jasmine
+52 verbose lock tar:///usr/local/lib/node_modules/jasmine /Users/shani/.npm/e079703c-r-local-lib-node-modules-jasmine.lock
+53 silly lockFile c35af2fa-ni-npm-jasmine-2-5-3-package-tgz tar:///Users/shani/.npm/jasmine/2.5.3/package.tgz
+54 verbose lock tar:///Users/shani/.npm/jasmine/2.5.3/package.tgz /Users/shani/.npm/c35af2fa-ni-npm-jasmine-2-5-3-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/jasmine'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/jasmine']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/jasmine',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/jasmine',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:108:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.5.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "jasmine"
+60 error cwd /Users/shani/slc-mysolutions
+61 error node -v v0.10.35
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/jasmine
+64 error fstream_path /usr/local/lib/node_modules/jasmine
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/jasmine'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:108:15)
+71 verbose exit [ 3, true ]

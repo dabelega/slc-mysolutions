@@ -1,33 +1,29 @@
-
 module.exports = {
 
-aritGeo: function(myArray) {
-  if(myArray.length === 0){
-    return 0;
+getPrimes: function(n){
+
+
+  var primeArray = [];
+  //Return false if n is less than zero
+  if(n <= 0){
+    return false;
   }
   
-  var aDiff = myArray[1] - myArray[0];
-  var gRatio = myArray[1]/myArray[0];
-  var aCounter = 0;
-  var gCounter = 0;
   
-  for(var i = 0; i < myArray.length - 1; i++){
-    if(myArray[i + 1] - myArray[i] === aDiff){
-      aCounter += 1;
-    }
-    
-    if(myArray[i + 1]/myArray[i] === gRatio){
-      gCounter += 1;
-    }
-  }
+        for(var num = 1; num <= n; num++){
+          var tally = 0;
+          for(var i = num; i>=1; i--){
+              if(num % i === 0){
+                tally = tally + 1;
+              }
+            }
+      
+         if (tally === 2){
+            primeArray.push(num);
+         }
+      }
+      return primeArray;
   
-  if(aCounter === myArray.length - 1){
-    return "Arithmetic";
-  }else if(gCounter === myArray.length - 1){
-   return "Geometric"; 
-  }else{
-    return -1;
-  }
   
-}
+    } 
 }

@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/dhaniboy09/slc-mysolutions/issues"
   },
-  "homepage": "https://github.com/dhaniboy09/slc-mysolutions"
+  "homepage": "https://github.com/dhaniboy09/slc-mysolutions",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
 }
